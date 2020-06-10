@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+  }
+
+
+.contenedor{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center !important;
+    position: relative !important;
+
+}
+
+.contenedor-interior {
+    max-width: 1000px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    text-align: left !important;
+    background-color: #fff !important;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+  }
+
+.encabezado {
+    background: #434E5E;
+    color: rgba(255, 255, 255, 0.9);
+    height: 220px;
+    padding-top: 1.5rem !important;
+    padding-top: 0 !important;
+  }
+
+  .media {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column !important;
+    flex-direction: row !important;
+    background-color: #434E5E;
+  }
+  
+
+  .foto{
+    margin-right: 1rem !important;
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .media-cuerpo{
+    display: flex !important;
+    flex: 1;
+    padding: 1.2rem !important; /* Modificado antes 1.5*/
+    flex-direction: column !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+
+  .nombre{
+    font-size: 2.25rem;
+    letter-spacing: 0.175rem;
+    font-weight: 900;
+    margin-top: 0 !important;
+    margin-bottom: 0.25rem !important;
+    color: #fff !important;
+    text-transform: uppercase !important;
+  }
+
+  .titulo{
+    font-size: 1.5rem;
+    margin-bottom: 1rem !important;
+    color: #fff;
+  }
+
+  .lista{
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .correo{
+    margin-bottom: 0.5rem !important;
+    margin-right: 0.5rem !important;
+    color: #fff;
+  }
+
+  .cuerpo-cv{
+    padding: 3rem !important;
+  }
+
+.resumen-carrera{
+  font-size: 1.25rem;
+  position: relative;
+  color: #434E5E;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  padding-bottom: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.resumen-carrera:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.5px;
+  background: #8d9aad;
+}
+
+.fila{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.experiencia-laboral{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 70%; /*modificado antes 75% */
+  max-width: 70%; /*modificado antes 75% */
+}
+
+.experiencia-laboral-seccion{
+  margin-bottom: 3rem !important;
+}
+
+.lineatiempo{
+  padding-left: 2rem;
+  position: relative !important;
+}
+
+.lineatiempo:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background: #aab4c3;
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+
+.lineatiempo-articulo{
+  position: relative !important;
+  padding-bottom: 3rem !important;
+}
+
+.lineatiempo-articulo:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid #58677c;
+  background: white;
+  border-radius: 50%;
+}
+
+.lineatiempo-articulo-encabezado{
+display: flex !important;
+flex-direction: column !important;
+}
+
+.tiempo{
+  font-size: 0.875rem;
+  color: #aab4c3;
+}
+
+.intereses{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.intereses-titulo{
+  font-size: 1.25rem;
+  position: relative;
+  color: #434E5E;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  padding-bottom: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.intereses-titulo:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.5px;
+  background: #8d9aad;
+}
+
+.intereses-contenido{
+  padding-left: 0;
+  list-style: none;
+}
+
+.piepagina{
+  display: block;
+  color: #434E5E;
+  text-align: center !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 3rem !important;
+}
