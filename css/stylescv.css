@@ -9,98 +9,68 @@ body {
     background-color: #fff;
   }
 
-
-.contenedor{
-    padding-top: 30px;
-    padding-bottom: 60px;
-    text-align: center !important;
-    position: relative !important;
-
-}
-
 .contenedor-interior {
     max-width: 1000px;
-    margin-right: auto !important;
-    margin-left: auto !important;
-    text-align: left !important;
-    background-color: #fff !important;
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
   }
 
 .encabezado {
-    background: #434E5E;
     color: rgba(255, 255, 255, 0.9);
     height: 220px;
-    padding-top: 1.5rem !important;
-    padding-top: 0 !important;
+    padding-top: 1.5rem;
+    padding-top: 0;
   }
 
   .media {
     display: flex;
     align-items: flex-start;
-    flex-direction: column !important;
-    flex-direction: row !important;
+    flex-direction: row;
     background-color: #434E5E;
   }
-  
 
   .foto{
-    margin-right: 1rem !important;
-    max-width: 100%;
-    height: auto;
     width: 200px;
-    margin-right: auto !important;
-    margin-left: auto !important;
   }
 
   .media-cuerpo{
-    display: flex !important;
+    display: flex;
     flex: 1;
-    padding: 1.2rem !important; /* Modificado antes 1.5*/
-    flex-direction: column !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
+    padding: 1.5rem;
+    flex-direction: column;
   }
 
   .nombre{
     font-size: 2.25rem;
-    letter-spacing: 0.175rem;
     font-weight: 900;
-    margin-top: 0 !important;
-    margin-bottom: 0.25rem !important;
-    color: #fff !important;
-    text-transform: uppercase !important;
+    color: #fff;
+    text-transform: uppercase;
   }
 
   .titulo{
     font-size: 1.5rem;
-    margin-bottom: 1rem !important;
     color: #fff;
   }
 
   .lista{
-    padding-left: 0;
     list-style: none;
   }
 
-  .correo{
-    margin-bottom: 0.5rem !important;
-    margin-right: 0.5rem !important;
-    color: #fff;
-  }
-
   .cuerpo-cv{
-    padding: 3rem !important;
+    padding: 3rem;
   }
 
 .resumen-carrera{
   font-size: 1.25rem;
   position: relative;
   color: #434E5E;
-  text-transform: uppercase !important;
-  font-weight: 700 !important;
-  padding-bottom: 1rem !important;
-  margin-bottom: 1rem !important;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .resumen-carrera:after {
@@ -116,8 +86,8 @@ body {
 .fila{
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 .experiencia-laboral{
@@ -130,12 +100,12 @@ body {
 }
 
 .experiencia-laboral-seccion{
-  margin-bottom: 3rem !important;
+  margin-bottom: 3rem;
 }
 
 .lineatiempo{
   padding-left: 2rem;
-  position: relative !important;
+  position: relative;
 }
 
 .lineatiempo:before {
@@ -150,8 +120,8 @@ body {
 }
 
 .lineatiempo-articulo{
-  position: relative !important;
-  padding-bottom: 3rem !important;
+  position: relative;
+  padding-bottom: 3rem;
 }
 
 .lineatiempo-articulo:before {
@@ -168,8 +138,8 @@ body {
 }
 
 .lineatiempo-articulo-encabezado{
-display: flex !important;
-flex-direction: column !important;
+display: flex;
+flex-direction: column;
 }
 
 .tiempo{
@@ -190,20 +160,10 @@ flex-direction: column !important;
   font-size: 1.25rem;
   position: relative;
   color: #434E5E;
-  text-transform: uppercase !important;
-  font-weight: 700 !important;
-  padding-bottom: 1rem !important;
-  margin-bottom: 1rem !important;
-}
-
-.intereses-titulo:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 1.5px;
-  background: #8d9aad;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .intereses-contenido{
@@ -214,7 +174,7 @@ flex-direction: column !important;
 .piepagina{
   display: block;
   color: #434E5E;
-  text-align: center !important;
-  padding-top: 0.5rem !important;
-  padding-bottom: 3rem !important;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 3rem;
 }
